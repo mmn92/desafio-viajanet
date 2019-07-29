@@ -1,0 +1,73 @@
+<footer>
+  <div class="email">
+    <form class="email__form" (ngSubmit)="onSubmit()">
+      <label for="email"
+        >Receba ofertas exclusivas <br />
+        do ViajaNet no seu e-mail</label
+      >
+      <input
+        type="email"
+        [(ngModel)]="email"
+        name="email"
+        placeholder="Informe seu e-mail"
+      />
+      <input type="submit" value="Cadastre-se" class="btn" />
+    </form>
+  </div>
+  <div class="destinations">
+    <h1 class="destinations__title">Agência de Viagens Online</h1>
+    <div class="destinations__links">
+      <ul>
+        <li class="list__label">
+          <a href="#">ViajaNet</a>
+        </li>
+        <li>
+          <a href="#">Passagens Aéreas</a>
+        </li>
+        <li>
+          <a href="#">Pacotes de Viagens</a>
+        </li>
+        <li>
+          <a href="#">Hotéis</a>
+        </li>
+        <li>
+          <a href="#">Aplicativo ViajaNet</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list__label">
+          <a href="#">Linhas Aéreas Nacionais</a>
+        </li>
+        <li>
+          <a href="#">Gol</a>
+        </li>
+        <li>
+          <a href="#">Azul</a>
+        </li>
+        <li>
+          <a href="#">Tam agora é Latam</a>
+        </li>
+        <li>
+          <a href="#">Avianca</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="list__label">
+          <a href="#">Linhas Aéreas Internacionais</a>
+        </li>
+        <li>
+          <a href="#">Aerolíneas Argentinas</a>
+        </li>
+        <li>
+          <a href="#">Air Canada</a>
+        </li>
+        <li>
+          <a href="#">American Airlines</a>
+        </li>
+        <li>
+          <a href="#">Copa Airlines</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
