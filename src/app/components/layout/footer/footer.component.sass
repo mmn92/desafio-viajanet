@@ -5,6 +5,7 @@
 
 .email__form
     margin: auto
+    margin-bottom: 20px
     height: 100%
     display: flex
     align-items: center
@@ -17,6 +18,7 @@
 
 .destinations
     width: 67%
+    padding-top: 20px
     margin: auto
     color: #7d7d7d
     h1
@@ -34,3 +36,14 @@
                 color: #7d7d7d
 .list__label
     margin-bottom: 25px
+
+@media (max-width: 500px)
+    .email
+        min-height: 150px 
+    .email__form
+        flex-direction: column
+        justify-content: space-around
+        input
+            display: block
+            width: 90%
+            margin: 0
