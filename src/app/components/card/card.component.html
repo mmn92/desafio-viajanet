@@ -1,0 +1,14 @@
+<div class="card">
+  <img src="{{ imgSrc }}" alt="Card photo" />
+  <p class="card__title">passagem aérea</p>
+  <p>{{ cardInfo.from }} para {{ cardInfo.to }}</p>
+  <p>
+    <span>IDA</span>{{ cardInfo.departDate }}<span>VOLTA</span
+    >{{ cardInfo.returnDate }}
+  </p>
+  <p>
+    A PARTIR DE: <span>R${{ cardInfo.price }}</span>
+  </p>
+  <p>Preço Final, taxas Inclusas</p>
+  <button class="card__button">Comprar agora</button>
+</div>
